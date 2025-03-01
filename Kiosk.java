@@ -19,7 +19,7 @@ public class Kiosk {
 		SeatOne seatOne = new SeatOne();
 		for(int i=1; i<this.seat.length+1; i++) {
 			if(seat[i]==null) {
-				seat[i]=seatOne.getSeatnumber(seatnumber);
+				
 			}
 		}
 	}
