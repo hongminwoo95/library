@@ -1,14 +1,12 @@
 package main;
 
-public class SeatOne {
-	private String seatnumber = "비어있음"; // 자리번호 
-
-	public String getSeatnumber() {
-		return seatnumber;
-	}
-
-	public void setSeatnumber(String seatnumber) {
-		this.seatnumber = seatnumber;
+public class SeatOne { // 1개 자리 클래스
+	private int seatNum = 0; // 자리번호
+	private String seat = null; //자리 상태 "공석","만석" 
+	
+	SeatOne(int seatNum,String seat){
+		this.seatNum=seatNum;
+		this.seat=seat;
 	}
     
    

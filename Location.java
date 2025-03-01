@@ -1,9 +1,10 @@
 package main;
 
-public class Location { // 
-	private String location =null;
+public class Location { // 독서 보관대
+	private String seatnum =null;
 	
-	Location(String location){
-		this.location=location;
+	Location(String seatnum){
+		this.seatnum=seatnum;
+		
 	}
 }
