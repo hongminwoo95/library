@@ -1,6 +1,6 @@
 package main;
 
-public class User {
+public class User { //도서실 개인회원
 	private String id = null;
 	private String pass = null;
 	
